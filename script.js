@@ -48,3 +48,8 @@ function startTime() {
     hours + ":" + minutes + ":" + seconds; // Выбор элемента документа по его id = "time1"
   setInterval(startTime, 1000);
 }
+
+function start() {
+  startTime();
+  timer();
+}
